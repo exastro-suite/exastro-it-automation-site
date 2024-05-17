@@ -31,35 +31,33 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
     </div>
     <div class="header-menu">
         <ul class="header-menu-list">
-            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.3/installation/" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/installation/" class="header-link touch">
                 <i class="fas fa-download"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Install</span>
             </a></li>
-            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.3/manuals/" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/manuals/" class="header-link touch">
                 <i class="fas fa-file-alt"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Manual</span>
             </a></li>
-            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.3/learn/quickstart/index.html" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/learn/quickstart/index.html" class="header-link touch">
                 <i class="fa-solid fa-jet-fighter"></i>
                 <span class="header-link-sub">Learn</span>
                 <span class="header-link-main">Quickstart</span>
             </a></li>
-            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.3/learn/" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/learn/" class="header-link touch">
                 <i class="fas fa-school"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Learn</span>
             </a></li>
-            <!-- </a></li> -->
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/templates/index.html" class="header-link touch">
+                <i class="fas fa-cog"></i>
+                <span class="header-link-main">Templates</span>
+            </a></li>
             <li class="header-menu-item"><span class="header-nolink">
                 <i class="fas fa-video"></i>
                 <span class="header-link-main">Webinar</span>
-                <span class="header-link-coming-soon">Coming Soon...</span>
-            </span></li>
-            <li class="header-menu-item"><span class="header-nolink">
-                <i class="fas fa-cog"></i>
-                <span class="header-link-main">Setting Samples</span>
                 <span class="header-link-coming-soon">Coming Soon...</span>
             </span></li>
             <li class="header-menu-item"><span class="header-nolink">
