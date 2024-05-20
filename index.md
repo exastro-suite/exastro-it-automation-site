@@ -26,7 +26,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
         <div class="install-command-block">
           <p class="install-command-title"><i class="fas fa-download"></i> Easy to install...</p>
           <div class="install-command-wrap clipboard-copy"><pre class="install-command ">sh &lt;(curl -sf {{ site.url }}{{ site.baseurl }}/setup) install<i class="fa-regular fa-copy"></i></pre></div>
-          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/docker_compose.html">ドキュメント</a>を参照してください。</p>
+          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/index.html">ドキュメント</a>を参照してください。</p>
         </div>
     </div>
     <div class="header-menu">
@@ -51,15 +51,13 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Learn</span>
             </a></li>
-            <!-- </a></li> -->
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/templates/index.html" class="header-link touch">
+                <i class="fas fa-cog"></i>
+                <span class="header-link-main">Templates</span>
+            </a></li>
             <li class="header-menu-item"><span class="header-nolink">
                 <i class="fas fa-video"></i>
                 <span class="header-link-main">Webinar</span>
-                <span class="header-link-coming-soon">Coming Soon...</span>
-            </span></li>
-            <li class="header-menu-item"><span class="header-nolink">
-                <i class="fas fa-cog"></i>
-                <span class="header-link-main">Setting Samples</span>
                 <span class="header-link-coming-soon">Coming Soon...</span>
             </span></li>
             <li class="header-menu-item"><span class="header-nolink">
