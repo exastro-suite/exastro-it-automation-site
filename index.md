@@ -172,7 +172,7 @@ $("document").on('click','#grayBack',function () {
                     <div class="features-title">マルチテナントの実現</div>
                     <div class="features-body">
                         <div class="features-paragraph">各メニューやレコード単位のRBACを活用することで、<em>マルチテナント</em>として活用いただくことが可能です。パラメータシートやJobFlowの<em>１つ１つに対して権限付与が可能</em>です。</div>
-                        <div class="features-paragraph"><figure class="loupe touch"><img src="/exastro-it-automation-docs/assets/img/features_image1.png" alt="マルチテナントの実現"></figure></div>
+                        <div class="features-paragraph"><figure class="loupe touch"><img src="{{ "/exastro-it-automation-docs/assets/img/features_image1.png" | relative_url }}" alt="マルチテナントの実現"></figure></div>
                     </div>
                 </div>
             </div>
@@ -182,7 +182,7 @@ $("document").on('click','#grayBack',function () {
                     <div class="features-body">
                         <div class="features-paragraph">パラメータシートを<em>グラフィカル</em>に定義可能<br>
                         作成した<em>パラメータシートの関連性を可視化</em>できます。</div>
-                        <div class="features-paragraph"><figure class="loupe touch"><img src="/exastro-it-automation-docs/assets/img/features_image2.png" alt="NoCodeでCMDBを定義"></figure></div>
+                        <div class="features-paragraph"><figure class="loupe touch"><img src="{{ "/exastro-it-automation-docs/assets/img/features_image2.png" | relative_url }}" alt="NoCodeでCMDBを定義"></figure></div>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@ $("document").on('click','#grayBack',function () {
                     <div class="features-title">パラメータのライフサイクルを管理</div>
                     <div class="features-body">
                         <div class="features-paragraph">収集⇒変更⇒収集⇒比較を一連のライフサイクルとして整備することで、変更すべき箇所が正しく変更できていることを確認することができる。</div>
-                        <div class="features-paragraph"><figure class="loupe touch"><img src="/exastro-it-automation-docs/assets/img/features_image3.png" alt="パラメータのライフサイクルを管理"></figure></div>
+                        <div class="features-paragraph"><figure class="loupe touch"><img src="{{ "/exastro-it-automation-docs/assets/img/features_image3.png" | relative_url }}" alt="パラメータのライフサイクルを管理"></figure></div>
                     </div>
                 </div>
             </div>
@@ -201,7 +201,7 @@ $("document").on('click','#grayBack',function () {
                     <div class="features-body">
                         <div class="features-paragraph">PlaybookやTFファイル等のIaCのCI/CDを実現する機能を具備。<br>
                         GitにIaCをコミットすることでMovement実行までを自動化することができる。</div>
-                        <div class="features-paragraph"><figure class="loupe touch"><img src="/exastro-it-automation-docs/assets/img/features_image4.png" alt="IaCのCI/CDの実現"></figure></div>
+                        <div class="features-paragraph"><figure class="loupe touch"><img src="{{ "/exastro-it-automation-docs/assets/img/features_image4.png" | relative_url }}" alt="IaCのCI/CDの実現"></figure></div>
                     </div>
                 </div>
             </div>
@@ -210,7 +210,7 @@ $("document").on('click','#grayBack',function () {
                     <div class="features-title">IaCをモジュール管理して再利用性を向上</div>
                     <div class="features-body">
                         <div class="features-paragraph">作成するIaCはなるべく使いまわせる粒度で作成することがIaC作成コストを低減させることにつながる。</div>
-                        <div class="features-paragraph"><figure class="loupe touch"><img src="/exastro-it-automation-docs/assets/img/features_image5.png" alt="IaCをモジュール管理して再利用性を向上"></figure></div>
+                        <div class="features-paragraph"><figure class="loupe touch"><img src="{{ "/exastro-it-automation-docs/assets/img/features_image5.png" | relative_url }}" alt="IaCをモジュール管理して再利用性を向上"></figure></div>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@ $("document").on('click','#grayBack',function () {
                 <div class="features-block-inner">
                     <div class="features-title">複数の自動化ソフトウェアを繋げて実行</div>
                     <div class="features-body">
-                        <div class="features-paragraph"><figure class="loupe touch"><img src="/exastro-it-automation-docs/assets/img/features_image6.png" alt="複数の自動化ソフトウェアを繋げて実行"></figure></div>
+                        <div class="features-paragraph"><figure class="loupe touch"><img src="{{ "/exastro-it-automation-docs/assets/img/features_image6.png" | relative_url }}" alt="複数の自動化ソフトウェアを繋げて実行"></figure></div>
                     </div>
                 </div>
             </div>
