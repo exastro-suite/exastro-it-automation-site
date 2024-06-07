@@ -53,6 +53,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
             </a></li>
             <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/templates/index.html" class="header-link touch">
                 <i class="fas fa-cog"></i>
+                <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Templates</span>
             </a></li>
             <li class="header-menu-item"><span class="header-nolink">
