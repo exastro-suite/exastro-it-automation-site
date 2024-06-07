@@ -1,5 +1,6 @@
 ---
-title: Exastro IT Automation Ver.2
+title: Home
+suite_name: IT Automation Ver.2
 layout: common
 language: ja
 docs: ita
@@ -14,7 +15,6 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
 ##################################################
 -->
 <header id="header">
-<title>Exastro IT Automation Ver.2</title>
 <div class="header-container">
     <div class="header-main">
         <div class="header-main-specialized"><span>システム<strong>構築・運用</strong>に特化</span></div>
@@ -26,7 +26,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
         <div class="install-command-block">
           <p class="install-command-title"><i class="fas fa-download"></i> Easy to install...</p>
           <div class="install-command-wrap clipboard-copy"><pre class="install-command ">sh &lt;(curl -sf {{ site.url }}{{ site.baseurl }}/setup) install<i class="fa-regular fa-copy"></i></pre></div>
-          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/index.html">ドキュメント</a>を参照してください。</p>
+          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/index.html">ドキュメント</a>を参照してください。</p><br>
           <p class="install-command-note">Exastro IT Automation Ver.1 は、<a class="install-command-link touch" href="https://exastro-suite.github.io/it-automation-docs/index_ja.html">こちら</a></p>
           <p class="install-command-note">Exastro OASE は、<a class="install-command-link touch" href="https://exastro-suite.github.io/oase-docs/index_ja.html">こちら</a></p>
         </div>
