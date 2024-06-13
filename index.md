@@ -27,8 +27,8 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
           <p class="install-command-title"><i class="fas fa-download"></i> Easy to install...</p>
           <div class="install-command-wrap clipboard-copy"><pre class="install-command ">sh &lt;(curl -sf {{ site.url }}{{ site.baseurl }}/setup) install<i class="fa-regular fa-copy"></i></pre></div>
           <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/index.html">ドキュメント</a>を参照してください。</p><br>
-          <p class="install-command-note">旧バージョン（ Exastro IT Automation Ver.1 は、<a class="install-command-link touch" href="https://exastro-suite.github.io/it-automation-docs/index_ja.html">こちら</a> ）</p>
-          <p class="install-command-note">旧バージョン（ Exastro OASE は、<a class="install-command-link touch" href="https://exastro-suite.github.io/oase-docs/index_ja.html">こちら</a> ）</p>
+          <p class="install-command-note">旧バージョン（Exastro IT Automation Ver.1）は、<a class="install-command-link touch" href="https://exastro-suite.github.io/it-automation-docs/index_ja.html">こちら</a></p>
+          <p class="install-command-note">旧バージョン（Exastro OASE）は、<a class="install-command-link touch" href="https://exastro-suite.github.io/oase-docs/index_ja.html">こちら</a></p>
         </div>
     </div>
     <div class="header-menu">
