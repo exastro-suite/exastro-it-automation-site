@@ -1,5 +1,6 @@
 ---
 title: Home
+suite_name: IT Automation Ver.2
 layout: common
 language: ja
 docs: ita
@@ -14,10 +15,9 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
 ##################################################
 -->
 <header id="header">
-
 <div class="header-container">
     <div class="header-main">
-        <div class="header-main-specialized"><span>システム<strong>設定</strong>に特化</span></div>
+        <div class="header-main-specialized"><span>システム<strong>構築・運用</strong>に特化</span></div>
         <h1 class="header-main-title">
             <span class="header-main-exastro">Exastro</span>
             <span class="header-main-software">IT Automation <span style="font-size: 50%">Ver.</span>2</span>
@@ -26,7 +26,9 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
         <div class="install-command-block">
           <p class="install-command-title"><i class="fas fa-download"></i> Easy to install...</p>
           <div class="install-command-wrap clipboard-copy"><pre class="install-command ">sh &lt;(curl -sf {{ site.url }}{{ site.baseurl }}/setup) install<i class="fa-regular fa-copy"></i></pre></div>
-          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/index.html">ドキュメント</a>を参照してください。</p>
+          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.4/installation/index.html">ドキュメント</a>を参照してください。</p><br>
+          <p class="install-command-note">旧バージョン（Exastro IT Automation Ver.1）は、<a class="install-command-link touch" href="https://exastro-suite.github.io/it-automation-docs/index_ja.html">こちら</a></p>
+          <p class="install-command-note">旧バージョン（Exastro OASE）は、<a class="install-command-link touch" href="https://exastro-suite.github.io/oase-docs/index_ja.html">こちら</a></p>
         </div>
     </div>
     <div class="header-menu">
@@ -53,7 +55,13 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
             </a></li>
             <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.4/templates/index.html" class="header-link touch">
                 <i class="fas fa-cog"></i>
+                <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Templates</span>
+            </a></li>
+            <li class="header-menu-item"><a href="https://www.exastro.org/index.html#handout" class="header-link touch">
+                <i class="fas fa-toolbox"></i>
+                <span class="header-link-sub">Hand out</span>
+                <span class="header-link-main">PSSO method</span>
             </a></li>
             <li class="header-menu-item"><span class="header-nolink">
                 <i class="fas fa-video"></i>
