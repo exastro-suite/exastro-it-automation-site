@@ -28,7 +28,7 @@ color: #FFF;
 #contents-menu {
 position: sticky;
 top: 40px;
-z-index: 9998;
+z-index: 10;
 background-color: #FFF;
 box-shadow: 0 0 8px rgba( 0,0,0,.2 );
 }
