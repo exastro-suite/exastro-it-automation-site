@@ -142,3 +142,32 @@ display: flex;
 gap: 32px;
 flex-direction: column;
 }
+
+@media screen and ( max-width: 980px ) {
+
+.header-suite-name {
+font-size: 16px;
+}
+.header-h1 {
+font-size: 32px;
+}
+#contents-menu {
+display: none;
+}
+.section-container {
+max-width: 640px;
+}
+.section-split {
+width: 100%;
+}
+.section-h2 {
+font-size: 24px;
+}
+.section-h3 {
+font-size: 22px;
+}
+.section-h4 {
+font-size: 18px;
+}
+
+}
