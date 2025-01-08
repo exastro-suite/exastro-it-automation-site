@@ -35,7 +35,7 @@ description: Exastro IT Automationが提供する機能のうちよく使う機�
             <div class="section-split-warp-center">
                 <div class="section-split">
                     <p class="section-p">公開リポジトリのREADMEをご確認ください。<br>
-                    <a href="https://github.com/exastro-suite/exastro-it-automation‐simplemode" target="_blank" class="touch">https://github.com/exastro-suite/exastro-it-automation‐simplemode</a></p>
+                    <a href="https://github.com/exastro-suite/exastro-it-automation-simplemode" target="_blank" class="touch">https://github.com/exastro-suite/exastro-it-automation-simplemode</a></p>
                 </div>
             </div>
         </div>
