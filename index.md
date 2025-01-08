@@ -65,7 +65,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
             </a></li>
             <li class="header-menu-item"><a href="/simple_mode.html" class="header-link touch" style="gap:0">
                 <i class="fa-solid fa-leaf"></i>
-                <span class="header-link-sub">Documents</span>
+                <span class="header-link-sub">Features</span>
                 <span class="header-link-main"><span style="font-size:70%">Exastro IT Automation</span><br>SimpleMode</span>
             </a></li>
             <li class="header-menu-item"><span class="header-nolink">
