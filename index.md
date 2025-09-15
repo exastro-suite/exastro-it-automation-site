@@ -94,7 +94,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
 <div class="section-main">
     <h2 class="section-h2"><strong class="software-name">Exastro IT Automation</strong>とは？</h2>
     <p class="section-p">Exastro IT Automation は、システム構築や運用業務の自動化/効率化/省力化を目的としたシステムの構成管理およびシステム設定のためのフレームワークです。</p>
-    <h3 class="section-h3">システム構築/運用は情報の一元管理が要！</h3>
+    <h3 class="section-h3">システムの構成情報と運用ノウハウを一元管理</h3>
     <p class="section-p">Exastro IT Automation は、情報連携のミスやチーム間の情報伝達のコストを抑えるために、システムの構成情報であるパラメータや手順(IaC)を一元的に管理する仕組みを提供します。また、CMDB 上にシステムの過去・現在・未来のパラメータ情報を格納でき、作業手順書である IaC にパラメータを連携することで IaC の再利用性を高めることができます。</p>
 </div>
 
@@ -103,6 +103,15 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
 </div>
 
 </div>
+
+<div class="features">
+<div class="section-h4">Exastro IT Automation と関連ツールの機能</div>
+{% capture included_content %}
+{% include features.md %}
+{% endcapture %}
+{{ included_content | markdownify }}
+</div>
+
 </section>
 
 <hr class="section-hr">
