@@ -347,6 +347,14 @@ font-weight: bold;
 font-family: 'Noto Sans JP', sans-serif;
 color: #FFA500;
 }
+.section-h4 {
+margin-bottom: 16px;
+text-align: center;
+font-size: 22px;
+font-weight: bold;
+font-family: 'Noto Sans JP', sans-serif;
+color: #001E45;
+}
 .section-p {
 line-height: 1.5;
 text-align: justify;
@@ -691,6 +699,9 @@ border: 1px solid #000;
 font-size: 24px;
 }
 .section-h3 {
+font-size: 22px;
+}
+.section-h4 {
 font-size: 22px;
 }
 .resolve-title {

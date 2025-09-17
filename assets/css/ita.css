@@ -16,3 +16,59 @@ background-image: url(https://www.exastro.org/assets/img/home_banner_ita.jpg);
 #cloudnative .section-container {
 flex-direction: row-reverse;
 }
+
+/* featuresブロック中央寄せ・余白・装飾 */
+.features {
+  margin: 40px auto;
+  padding: 32px 24px;
+  border-radius: 12px;
+  text-align: center;
+  overflow-x: auto;
+  max-width: 1600px;
+}
+
+/* features内テーブル装飾 */
+.features table {
+  margin: 24px auto;
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  color: #001E45;
+}
+.features thead th {
+  border: 1px solid #b5c6de;
+  padding: 16px 5px;
+  text-align: center;
+  line-height: 1.7;
+  min-width: 145px;
+  text-align: center !important;
+}
+.features th, .features td {
+  border: 1px solid #b5c6de;
+  padding: 15px 16px;
+  text-align: center;
+  line-height: 1.7;
+  vertical-align: middle;
+}
+.features td:empty::before {
+  content: "\2014"; /* em dash */
+  color: #888;
+}
+.features th {
+  background: #e6eef7;
+  color: #001E45;
+  font-weight: bold;
+}
+.features th:first-child, .features td:first-child {
+  font-weight: bold;
+  min-width: 250px;
+}
+.features th:last-child, .features td:last-child {
+  min-width: 600px;
+}
+.features tr:nth-child(even) {
+  background: #f5f8fb;
+}
+.features tr:nth-child(odd) {
+  background: #fff;
+}
