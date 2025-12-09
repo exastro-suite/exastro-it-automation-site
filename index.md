@@ -66,7 +66,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Learn</span>
             </a></li>
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=templates class="header-link touch">
+            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=templates" class="header-link touch">
                 <i class="fas fa-cog"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Templates</span>
