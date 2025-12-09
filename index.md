@@ -26,34 +26,34 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
         <div class="install-command-block">
           <p class="install-command-title"><i class="fas fa-download"></i> Easy to install...</p>
           <div class="install-command-wrap clipboard-copy"><pre class="install-command ">sh &lt;(curl -sf {{ site.url }}{{ site.baseurl }}/setup) install<i class="fa-regular fa-copy"></i></pre></div>
-          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="{{ itaDocsUrl }}/redirect.html?redirect=installation">ドキュメント</a>を参照してください。</p><br>
+          <p class="install-command-note">インストールの詳細については、<a class="install-command-link touch" href="https://ita-docs.exastro.org/ja/2.6/installation/index.html">ドキュメント</a>を参照してください。</p><br>
           <p class="install-command-note">旧バージョン（Exastro IT Automation Ver.1）は、<a class="install-command-link touch" href="https://exastro-suite.github.io/it-automation-docs/index_ja.html">こちら</a></p>
           <p class="install-command-note">旧バージョン（Exastro OASE）は、<a class="install-command-link touch" href="https://exastro-suite.github.io/oase-docs/index_ja.html">こちら</a></p>
         </div>
     </div>
     <div class="header-menu">
         <ul class="header-menu-list">
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=installation" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.6/installation/" class="header-link touch">
                 <i class="fas fa-download"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Install</span>
             </a></li>
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=manuals" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.6/manuals/" class="header-link touch">
                 <i class="fas fa-file-alt"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Manual</span>
             </a></li>
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=learn/quickstart" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.6/learn/quickstart/index.html" class="header-link touch">
                 <i class="fa-solid fa-jet-fighter"></i>
                 <span class="header-link-sub">Learn</span>
                 <span class="header-link-main">Quickstart</span>
             </a></li>
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=learn" class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.6/learn/" class="header-link touch">
                 <i class="fas fa-school"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Learn</span>
             </a></li>
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=templates class="header-link touch">
+            <li class="header-menu-item"><a href="https://ita-docs.exastro.org/ja/2.6/templates/index.html" class="header-link touch">
                 <i class="fas fa-cog"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Templates</span>
