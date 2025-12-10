@@ -8,6 +8,19 @@ page_class: home
 page_name: index
 description: Exastro IT Automationはシステム設定をデジタル化して一元管理するためのオープンソースのフレームワークです。
 ---
+{% if site.url contains "staging" %}
+    {% assign devFlag = true %}
+    {% assign commonAssetsUrl = "https://staging.exastro.org" %}
+    {% assign exastroSiteUrl = "https://staging.exastro.org" %}
+    {% assign itaSiteUrl = "https://ita-staging.exastro.org" %}
+    {% assign itaDocsUrl = "https://ita-docs-staging.exastro.org" %}
+{% else %}
+    {% assign devFlag = false %}
+    {% assign commonAssetsUrl = "https://www.exastro.org" %}
+    {% assign exastroSiteUrl = "https://www.exastro.org" %}
+    {% assign itaSiteUrl = "https://ita.exastro.org" %}
+    {% assign itaDocsUrl = "https://ita-docs.exastro.org" %}
+{% endif %}
 <link rel="stylesheet" href="assets/css/software_home.css?v=20250916">
 <!--
 ##################################################
@@ -53,7 +66,7 @@ description: Exastro IT Automationはシステム設定をデジタル化して�
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Learn</span>
             </a></li>
-            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=templates class="header-link touch">
+            <li class="header-menu-item"><a href="{{ itaDocsUrl }}/redirect.html?redirect=templates" class="header-link touch">
                 <i class="fas fa-cog"></i>
                 <span class="header-link-sub">Documents</span>
                 <span class="header-link-main">Templates</span>
