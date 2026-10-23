@@ -1,238 +1,83 @@
 <!--
 ##################################################
    Footer
+   Logo and description / in-page links and SNS / related content menu / copyright (assets/css/ita.css)
+   Background color and image come from #footer in common.css
 ##################################################
 -->
-<footer id="footer">
-    <div class="footer-Container">
-        <div class="footer-Exastro">
-            <div class="footer-Exastro-logo">
-                <a class="footer-ImgLink touch" href="https://www.exastro.org/index_en.html"><img src="https://www.exastro.org/assets/img/exastro.svg" alt="Exastro"></a>
-            </div>
-            <div class="footer-Exastro-Desription">
-                Exastro is an open source software suite for digitizing, automating and labor saving the system life cycle.
-            </div>
-            <div class="footer-MainMenu">
-                <ul class="footer-MainMenu-List">
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/index_en.html">
-                            <i class="fas fa-home"></i>Home
-                        </a>
-                    </li>
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/message/index_en.html">
-                            <i class="fas fa-clipboard-check"></i>Message
-                        </a>
-                    </li>
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/index_en.html#overvire">
-                            <i class="fa fa-book"></i>Overview
-                        </a>
-                    </li>
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/index_en.html#faq">
-                            <i class="fas fa-question-circle"></i>FAQ
-                        </a>
-                    </li>
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/index.html#handout">
-                            <i class="fas fa-toolbox"></i>Hand out
-                        </a>
-                    </li>
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/newsroom_en.html">
-                            <i class="fas fa-toolbox"></i>News Room
-                        </a>
-                    </li>
-                    <li class="footer-MainMenu-Item">
-                        <a class="footer-MainMenu-Link touch" href="https://www.exastro.org/asset_en.html">
-                            <i class="fas fa-toolbox"></i>Asset
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-SubMenu">
-                <ul class="footer-SubMenu-List">
-                    <li class="footer-SubMenu-Item">
-                        <a href="https://twitter.com/ExastroSuite" class="footer-SubMenu-Link touch" target="_blank" rel="noopener">
-                            <i class="fab fa-twitter-square"></i>Twitter
-                        </a>
-                    </li>
-                    <li class="footer-SubMenu-Item">
-                        <a href="https://www.youtube.com/channel/UC-kwQiXQfmYXTPbrGR-8qxw" class="footer-SubMenu-Link touch" target="_blank" rel="noopener">
-                            <i class="fab fa-youtube-square"></i>YouTube
-                        </a>
-                    </li>
-                    <li class="footer-SubMenu-Item">
-                        <a href="https://github.com/exastro-suite" class="footer-SubMenu-Link touch" target="_blank" rel="noopener">
-                            <i class="fab fa-github-square"></i>GitHub
-                        </a>
-                    </li>
-                </ul>
-            </div>
+{%- assign itaDocsVersion = site.ita_docs_version | default: "2.9" %}
+<footer id="footer" class="site-footer">
+    <div class="site-footer__inner">
+        <div class="site-footer__brand">
+            <a class="site-footer__logo" href="{{ exastroSiteUrl }}/" aria-label="Back to Exastro top">
+                <img src="{{ commonAssetsUrl }}/assets/images/Exastro-logo2-white-rgb.svg" alt="Exastro" width="1280" height="300" loading="lazy">
+            </a>
+            <p class="site-footer__desc">Exastro is the open source execution control plane for governed automation across the system lifecycle.</p>
         </div>
-        <div class="footer-Suite">
-            <ul class="footer-Suite-List">
-                <li class="footer-Suite-Item">
-                    <div class="footer-Suite-Name">
-                        <a class="footer-ImgLink touch" href="https://exastro-suite.github.io/it-automation-docs/index.html">
-                            <img class="footer-Suite-Img" src="https://www.exastro.org/assets/img/lt_ita.svg" alt="Exastro IT Automation">
-                        </a>
-                    </div>
-                    <ul class="footer-SuiteMenu-List">
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/index.html">
-                                <i class="fas fa-home"></i>Home
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/overview.html">
-                                <i class="fas fa-server"></i>Overview
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/install.html">
-                                <i class="fas fa-download"></i>Install
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/learn.html">
-                                <i class="fas fa-school"></i>Learn
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/case.html">
-                                <i class="fas fa-book"></i>Case
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/documents.html">
-                                <i class="fas fa-file-alt"></i>Documents
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/it-automation-docs/faq.html">
-                                <i class="fas fa-question-circle"></i>FAQ
-                            </a>
-                        </li>
-                    </ul>
+
+        <div class="site-footer__links">
+            <nav class="footer-nav" aria-label="Footer links">
+                <ul class="footer-nav__list">
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#agentic-ai">Agentic AI</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#governed-execution">Governance</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#inside-exastro">Inside</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#use-cases">Use Cases</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#vision">Vision</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#evolution">Evolution</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#latest">Latest</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/#get-started">Get Started</a></li>
+                    <li><a class="footer-nav__link" href="{{ exastroSiteUrl }}/assets/index.html">Assets</a></li>
+                </ul>
+            </nav>
+
+            <ul class="footer-sns" aria-label="SNS">
+                <li>
+                    <a class="footer-sns__link" href="https://github.com/exastro-suite" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub
+                    </a>
                 </li>
-                <li class="footer-Suite-Item">
-                    <div class="footer-Suite-Name">
-                        <a class="footer-ImgLink touch" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/README.md">
-                            <img class="footer-Suite-Img" src="https://www.exastro.org/assets/img/lt_pbc.svg" alt="Exastro OASE">
-                        </a>
-                    </div>
-                    <ul class="footer-SuiteMenu-List">
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/README.md">
-                                <i class="fa-brands fa-github"></i>Readme
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/ansible_role_templates/README.md">
-                                <i class="fa-solid fa-code-branch"></i>Ansible Role Templates
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/ansible_role_packages/README.md">
-                                <i class="fa-solid fa-code-branch"></i>Ansible Role Packages
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/ansible_roles/README.md">
-                                <i class="fa-solid fa-code-branch"></i>Ansible Roles
-                            </a>
-                        </li>
-                    </ul>
+                <li>
+                    <a class="footer-sns__link" href="https://twitter.com/ExastroSuite" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"/></svg>X
+                    </a>
                 </li>
-                <li class="footer-Suite-Item">
-                    <div class="footer-Suite-Name">
-                        <a class="footer-ImgLink touch" href="https://exastro-suite.github.io/oase-docs/index.html">
-                            <img class="footer-Suite-Img" src="https://www.exastro.org/assets/img/lt_oase.svg" alt="Exastro OASE">
-                        </a>
-                    </div>
-                    <ul class="footer-SuiteMenu-List">
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/index.html">
-                                <i class="fas fa-home"></i>Home
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/overview.html">
-                                <i class="fas fa-server"></i>Overview
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/learn.html">
-                                <i class="fas fa-school"></i>Learn
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/case.html">
-                                <i class="fas fa-book"></i>Case
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/documents.html">
-                                <i class="fas fa-file-alt"></i>Documents
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/downloads.html">
-                                <i class="fas fa-download"></i>Downloads
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/oase-docs/faq.html">
-                                <i class="fas fa-question-circle"></i>FAQ
-                            </a>
-                        </li>
-                    </ul>
+                <li>
+                    <a class="footer-sns__link" href="https://www.youtube.com/channel/UC-kwQiXQfmYXTPbrGR-8qxw" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg>YouTube
+                    </a>
                 </li>
-                <li class="footer-Suite-Item">
-                    <div class="footer-Suite-Name">
-                        <a class="footer-ImgLink touch" href="https://exastro-suite.github.io/epoch-docs/index.html">
-                            <img class="footer-Suite-Img" src="https://www.exastro.org/assets/img/lt_epoch.svg" alt="Exastro EPOCH">
-                        </a>
-                    </div>
-                    <ul class="footer-SuiteMenu-List">
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/epoch-docs/index.html">
-                                <i class="fas fa-home"></i>Home
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/epoch-docs/overview.html">
-                                <i class="fas fa-server"></i>Overview
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/epoch-docs/learn.html">
-                                <i class="fas fa-school"></i>Learn
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/epoch-docs/reference.html">
-                                <i class="fas fa-file-alt"></i>Reference
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/epoch-docs/downloads.html">
-                                <i class="fas fa-download"></i>Downloads
-                            </a>
-                        </li>
-                        <li class="footer-SuiteMenu-Item">
-                            <a class="footer-SuiteMenu-Link touch" href="https://exastro-suite.github.io/epoch-docs/faq.html">
-                                <i class="fas fa-question-circle"></i>FAQ
-                            </a>
-                        </li>
-                    </ul>
+                <li>
+                    <a class="footer-sns__link" href="https://www.linkedin.com/company/exastro/" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125Zm1.782 13.019H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z"/></svg>LinkedIn
+                    </a>
                 </li>
             </ul>
         </div>
-        <div class="footer-copyright">
-            <small>© NEC Corporation 2019-2024</small>
-        </div>
+
+        <nav class="footer-related" aria-label="Related content">
+            <div class="footer-related__group">
+                <h2 class="footer-related__title">IT Automation Ver.2</h2>
+                <ul class="footer-related__list">
+                    <li><a class="footer-related__link" href="{{ itaSiteUrl }}/">Home</a></li>
+                    <li><a class="footer-related__link" href="{{ itaDocsUrl }}/en/{{ itaDocsVersion }}/installation/">Install</a></li>
+                    <li><a class="footer-related__link" href="{{ itaDocsUrl }}/en/{{ itaDocsVersion }}/manuals/">Manual</a></li>
+                    <li><a class="footer-related__link" href="{{ itaDocsUrl }}/en/{{ itaDocsVersion }}/learn/quickstart/index.html">Quickstart</a></li>
+                    <li><a class="footer-related__link" href="{{ itaDocsUrl }}/en/{{ itaDocsVersion }}/learn/">Learn</a></li>
+                    <li><a class="footer-related__link" href="{{ itaDocsUrl }}/">Documents</a></li>
+                    <li><a class="footer-related__link" href="{{ itaDocsUrl }}/en/{{ itaDocsVersion }}/templates/index.html">Templates</a></li>
+                </ul>
+            </div>
+            <div class="footer-related__group">
+                <h2 class="footer-related__title">Playbook Collection</h2>
+                <ul class="footer-related__list">
+                    <li><a class="footer-related__link" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/README.md">Readme</a></li>
+                    <li><a class="footer-related__link" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/ansible_role_templates/README.md">Ansible Role Templates</a></li>
+                    <li><a class="footer-related__link" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/ansible_role_packages/README.md">Ansible Role Packages</a></li>
+                    <li><a class="footer-related__link" href="https://github.com/exastro-suite/playbook-collection-docs/blob/master/ansible_roles/README.md">Ansible Roles</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <p class="site-footer__copyright"><small>&copy; NEC Corporation 2019-2026</small></p>
     </div>
 </footer>
